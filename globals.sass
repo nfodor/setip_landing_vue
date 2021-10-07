@@ -1,0 +1,26 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css")
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700|PT+Mono:400")
+@font-face
+  font-family: "Helvetica-Regular"
+  font-style: normal
+  font-weight: 400
+  src: url('https://fonts.animaapp.com/Helvetica-Regular') format("truetype")
+
+.screen a
+  display: contents
+  text-decoration: none
+
+.container-center-horizontal
+  display: flex
+  flex-direction: row
+  justify-content: center
+  pointer-events: none
+  width: 100%
+
+.container-center-horizontal > *
+  flex-shrink: 0
+  pointer-events: auto
+
+*
+  box-sizing: border-box
